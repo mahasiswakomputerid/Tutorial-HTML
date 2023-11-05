@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>JavaScript</h1>
+    <p id="inijavaKedua"></p>
+    <button
+      type="button"
+      onclick="document.getElementById('coba').innerHTML = Date()"
+    >
+      Klik disini.
+    </button>
+    <p id="coba"></p>
+    
+    <script>
+       document.getElementById("inijavaKedua").innerHTML =
+       "saya sangat mencintaimu";
+       
+       function iniFungsi() {
+          document.getElementById("coba").style.fontSize = "40px";
+          document.getElementById("coba").style.color = "red";
+          document.getElementById("coba").style.backgroundColor = "yellow";
+         }
+         </script>
+         <button type="button" onclick="iniFungsi()">klik disini</button>
+  </body>
+</html>
